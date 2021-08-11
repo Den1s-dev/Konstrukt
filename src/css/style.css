@@ -50,7 +50,9 @@ h2.promo_text  {
     display: flex;
     height: 64px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 5px 0px #9BA09E;
     justify-content: space-around;
+    
 }
 
 .logo_menu {
@@ -112,6 +114,7 @@ a .Konst {
     font-size: 26px;
     line-height: 27px;
     margin-top: 53px;
+    margin-right: 70px;
 }
 
 .story_descr {
@@ -122,7 +125,9 @@ a .Konst {
     margin-top: 35px;
 }
 
-.text {
+.history {
+    display: flex;
+    justify-content: space-between;
     height: 100%;
     width: 100%;
     padding-top: 69px;
@@ -130,15 +135,22 @@ a .Konst {
 
 .images {
     display: flex;
-    width: 100%;
-    /* margin-top: 64px; */
+    justify-content: space-between;
+    margin-top: 153px;
 }
 
-.cards {
-    justify-content: space-between;
-    /* text-align: center; */
-    /* padding-left: 177px; */
-    margin-top: 153px;
+
+
+.images .c1 {
+    padding-left: 15px;
+    
+}
+.images  .c2 {
+    padding-left: 15px;
+}
+
+.images  .c3 {
+    padding-left: 15px;
 }
 
 .line {
@@ -146,6 +158,8 @@ a .Konst {
     margin-top: 10px;
     width: 50px;
     border-bottom:2px solid #00A4E5;
+    box-shadow: 0px 5px 5px 0px #9BA09E;
+    
 }
 
 .button a {
@@ -164,6 +178,7 @@ a .Konst {
     margin-top: 10px;
     width: 50px;
     border-bottom:2px solid #00A4E5;
+    box-shadow: 0px 5px 5px 0px #9BA09E;
 }
 
 .description {
@@ -183,14 +198,13 @@ a .Konst {
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
-    margin-right: 30px;
+    margin-right: 26px;
     width: 100%;
 }
 
 .watching_item  {
-    /* border: 1px solid black; */
     border: 1px solid rgba(0, 0, 0, 0.2);
-    box-shadow: 5px 5px 5px 0px #9BA09E;
+    box-shadow: 2px 5px 5px 0px #9BA09E;
     margin-top: 80px;
     padding-left: 20px;
     width: 305px;
@@ -221,5 +235,13 @@ a .Konst {
     color:#48555B;
 }
 
+.build {
+    background: url('../img/bg/bg2.png') center center / cover no-repeat;
+    height: 500px;
+    
+}
 
+.finish_title{
+    margin: 0 auto;
+}
 
